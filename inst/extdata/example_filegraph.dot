@@ -1,0 +1,4778 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+0 [ shape=none, margin=0, label=<<table border="2" color="#D97757" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">multiqc_and_index_bams</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s001-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s002-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s003-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s004-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s005-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s006-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s007-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s008-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s009-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s010-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s011-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s012-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s013-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s014-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s015-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s016-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s017-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s018-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s019-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s020-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s021-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s022-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s023-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s024-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s025-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s026-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s027-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s028-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s029-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s030-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s031-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s032-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s033-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s034-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s035-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s036-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s037-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s038-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s039-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s040-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s041-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s042-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s043-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s044-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s045-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s046-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s047-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s048-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s049-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s050-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s051-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s052-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s053-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s054-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s055-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s056-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s057-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s058-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s059-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s060-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s061-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s062-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s063-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s064-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s065-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s066-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s067-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s068-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s069-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s070-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s071-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s072-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s073-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s074-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s075-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s076-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s077-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s078-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s079-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s080-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s081-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s082-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s083-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s084-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s085-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s086-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s087-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s088-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s089-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s090-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s091-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s092-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s093-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s094-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s095-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s096-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s097-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s098-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s099-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s100-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s101-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s102-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s103-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s104-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s105-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s106-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s107-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s108-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s109-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s110-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s111-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s112-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s113-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s114-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s115-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s116-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s117-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s118-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s119-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s120-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s121-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s122-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s123-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s124-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s125-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s126-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s127-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s128-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s129-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s130-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s131-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s132-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s133-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s134-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s135-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s136-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s137-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s138-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s139-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s140-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s141-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s142-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s143-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s144-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s145-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s146-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s147-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s148-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s149-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s150-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s151-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s152-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s153-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s154-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s155-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s156-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s157-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s158-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s159-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s160-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s161-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s162-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s163-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s164-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s165-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s166-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s167-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s168-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s169-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s170-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s171-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s172-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s173-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s174-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s175-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s176-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s177-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s178-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s179-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s180-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s181-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s182-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s183-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s184-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s185-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s186-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s187-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s188-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s189-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s190-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s191-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s192-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s193-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s194-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s195-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s196-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s197-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s198-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s199-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s200-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s201-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s202-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s203-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s204-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s205-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s206-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s207-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s208-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s209-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s210-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s211-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s212-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s213-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s214-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s215-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s216-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s217-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s218-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s219-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s220-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s221-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s222-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s223-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s224-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s225-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s226-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s227-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s228-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s229-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s230-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s231-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s232-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s233-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s234-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s235-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s236-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s237-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s238-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s239-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s240-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s241-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s242-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s243-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s244-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s245-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s246-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s247-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s248-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s249-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s250-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s251-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s252-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s253-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s254-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s255-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s256-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s257-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s258-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s259-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s260-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s261-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s262-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s263-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s264-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s265-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s266-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s267-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s268-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s269-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s270-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s271-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s272-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s273-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s274-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s275-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s276-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s277-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s278-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s279-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s280-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s281-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s282-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s283-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s284-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s285-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s286-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s287-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s288-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s289-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s290-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s291-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s292-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s293-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s294-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s295-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s296-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s297-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s298-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s299-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s300-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s301-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s302-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s303-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s304-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s305-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s306-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s307-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s308-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s309-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s310-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s311-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s312-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s313-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s314-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s315-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s316-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s317-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s318-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s319-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s320-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s321-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s322-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s323-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s324-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s325-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s326-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s327-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s328-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s329-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s330-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s331-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s332-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s333-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s334-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s335-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s336-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s337-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s338-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s339-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s340-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s341-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s342-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s343-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s344-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s345-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s346-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s347-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s348-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s349-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s350-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s351-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s352-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s353-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s354-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s355-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s356-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s357-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s358-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s359-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s360-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s361-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s362-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s363-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s364-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s365-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s366-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s367-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s368-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s369-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s370-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s371-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s372-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s373-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s374-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s375-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s376-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s377-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s378-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s379-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s380-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s381-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s382-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s383-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/s384-1.bam.bai</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s001-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s002-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s003-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s004-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s005-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s006-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s007-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s008-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s009-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s010-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s011-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s012-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s013-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s014-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s015-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s016-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s017-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s018-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s019-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s020-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s021-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s022-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s023-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s024-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s025-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s026-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s027-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s028-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s029-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s030-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s031-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s032-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s033-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s034-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s035-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s036-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s037-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s038-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s039-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s040-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s041-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s042-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s043-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s044-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s045-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s046-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s047-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s048-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s049-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s050-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s051-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s052-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s053-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s054-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s055-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s056-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s057-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s058-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s059-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s060-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s061-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s062-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s063-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s064-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s065-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s066-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s067-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s068-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s069-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s070-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s071-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s072-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s073-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s074-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s075-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s076-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s077-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s078-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s079-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s080-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s081-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s082-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s083-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s084-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s085-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s086-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s087-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s088-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s089-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s090-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s091-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s092-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s093-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s094-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s095-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s096-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s097-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s098-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s099-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s100-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s101-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s102-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s103-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s104-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s105-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s106-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s107-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s108-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s109-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s110-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s111-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s112-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s113-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s114-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s115-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s116-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s117-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s118-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s119-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s120-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s121-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s122-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s123-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s124-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s125-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s126-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s127-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s128-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s129-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s130-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s131-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s132-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s133-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s134-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s135-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s136-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s137-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s138-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s139-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s140-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s141-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s142-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s143-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s144-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s145-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s146-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s147-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s148-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s149-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s150-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s151-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s152-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s153-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s154-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s155-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s156-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s157-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s158-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s159-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s160-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s161-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s162-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s163-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s164-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s165-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s166-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s167-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s168-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s169-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s170-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s171-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s172-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s173-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s174-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s175-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s176-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s177-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s178-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s179-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s180-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s181-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s182-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s183-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s184-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s185-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s186-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s187-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s188-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s189-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s190-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s191-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s192-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s193-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s194-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s195-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s196-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s197-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s198-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s199-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s200-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s201-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s202-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s203-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s204-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s205-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s206-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s207-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s208-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s209-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s210-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s211-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s212-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s213-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s214-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s215-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s216-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s217-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s218-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s219-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s220-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s221-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s222-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s223-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s224-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s225-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s226-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s227-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s228-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s229-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s230-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s231-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s232-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s233-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s234-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s235-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s236-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s237-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s238-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s239-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s240-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s241-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s242-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s243-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s244-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s245-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s246-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s247-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s248-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s249-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s250-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s251-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s252-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s253-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s254-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s255-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s256-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s257-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s258-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s259-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s260-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s261-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s262-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s263-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s264-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s265-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s266-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s267-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s268-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s269-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s270-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s271-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s272-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s273-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s274-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s275-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s276-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s277-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s278-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s279-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s280-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s281-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s282-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s283-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s284-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s285-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s286-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s287-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s288-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s289-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s290-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s291-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s292-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s293-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s294-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s295-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s296-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s297-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s298-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s299-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s300-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s301-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s302-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s303-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s304-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s305-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s306-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s307-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s308-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s309-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s310-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s311-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s312-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s313-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s314-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s315-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s316-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s317-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s318-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s319-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s320-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s321-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s322-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s323-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s324-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s325-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s326-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s327-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s328-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s329-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s330-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s331-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s332-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s333-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s334-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s335-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s336-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s337-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s338-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s339-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s340-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s341-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s342-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s343-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s344-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s345-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s346-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s347-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s348-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s349-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s350-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s351-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s352-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s353-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s354-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s355-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s356-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s357-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s358-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s359-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s360-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s361-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s362-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s363-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s364-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s365-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s366-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s367-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s368-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s369-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s370-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s371-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s372-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s373-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s374-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s375-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s376-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s377-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s378-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s379-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s380-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s381-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s382-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s383-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/s384-1_fastqc.zip</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s001-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s002-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s003-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s004-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s005-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s006-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s007-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s008-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s009-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s010-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s011-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s012-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s013-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s014-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s015-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s016-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s017-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s018-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s019-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s020-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s021-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s022-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s023-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s024-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s025-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s026-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s027-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s028-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s029-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s030-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s031-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s032-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s033-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s034-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s035-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s036-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s037-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s038-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s039-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s040-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s041-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s042-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s043-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s044-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s045-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s046-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s047-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s048-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s049-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s050-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s051-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s052-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s053-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s054-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s055-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s056-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s057-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s058-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s059-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s060-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s061-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s062-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s063-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s064-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s065-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s066-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s067-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s068-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s069-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s070-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s071-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s072-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s073-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s074-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s075-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s076-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s077-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s078-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s079-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s080-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s081-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s082-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s083-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s084-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s085-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s086-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s087-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s088-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s089-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s090-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s091-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s092-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s093-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s094-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s095-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s096-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s097-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s098-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s099-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s100-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s101-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s102-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s103-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s104-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s105-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s106-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s107-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s108-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s109-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s110-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s111-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s112-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s113-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s114-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s115-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s116-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s117-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s118-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s119-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s120-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s121-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s122-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s123-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s124-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s125-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s126-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s127-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s128-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s129-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s130-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s131-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s132-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s133-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s134-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s135-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s136-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s137-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s138-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s139-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s140-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s141-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s142-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s143-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s144-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s145-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s146-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s147-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s148-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s149-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s150-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s151-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s152-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s153-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s154-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s155-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s156-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s157-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s158-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s159-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s160-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s161-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s162-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s163-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s164-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s165-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s166-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s167-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s168-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s169-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s170-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s171-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s172-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s173-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s174-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s175-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s176-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s177-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s178-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s179-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s180-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s181-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s182-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s183-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s184-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s185-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s186-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s187-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s188-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s189-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s190-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s191-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s192-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s193-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s194-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s195-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s196-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s197-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s198-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s199-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s200-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s201-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s202-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s203-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s204-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s205-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s206-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s207-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s208-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s209-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s210-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s211-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s212-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s213-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s214-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s215-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s216-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s217-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s218-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s219-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s220-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s221-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s222-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s223-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s224-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s225-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s226-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s227-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s228-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s229-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s230-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s231-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s232-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s233-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s234-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s235-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s236-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s237-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s238-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s239-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s240-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s241-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s242-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s243-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s244-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s245-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s246-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s247-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s248-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s249-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s250-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s251-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s252-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s253-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s254-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s255-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s256-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s257-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s258-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s259-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s260-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s261-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s262-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s263-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s264-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s265-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s266-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s267-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s268-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s269-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s270-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s271-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s272-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s273-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s274-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s275-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s276-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s277-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s278-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s279-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s280-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s281-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s282-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s283-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s284-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s285-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s286-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s287-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s288-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s289-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s290-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s291-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s292-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s293-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s294-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s295-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s296-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s297-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s298-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s299-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s300-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s301-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s302-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s303-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s304-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s305-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s306-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s307-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s308-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s309-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s310-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s311-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s312-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s313-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s314-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s315-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s316-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s317-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s318-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s319-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s320-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s321-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s322-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s323-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s324-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s325-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s326-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s327-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s328-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s329-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s330-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s331-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s332-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s333-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s334-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s335-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s336-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s337-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s338-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s339-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s340-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s341-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s342-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s343-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s344-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s345-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s346-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s347-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s348-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s349-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s350-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s351-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s352-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s353-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s354-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s355-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s356-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s357-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s358-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s359-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s360-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s361-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s362-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s363-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s364-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s365-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s366-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s367-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s368-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s369-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s370-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s371-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s372-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s373-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s374-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s375-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s376-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s377-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s378-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s379-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s380-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s381-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s382-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s383-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/s384-1.metrics.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s001-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s002-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s003-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s004-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s005-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s006-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s007-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s008-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s009-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s010-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s011-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s012-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s013-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s014-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s015-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s016-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s017-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s018-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s019-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s020-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s021-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s022-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s023-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s024-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s025-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s026-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s027-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s028-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s029-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s030-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s031-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s032-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s033-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s034-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s035-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s036-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s037-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s038-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s039-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s040-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s041-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s042-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s043-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s044-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s045-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s046-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s047-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s048-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s049-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s050-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s051-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s052-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s053-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s054-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s055-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s056-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s057-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s058-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s059-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s060-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s061-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s062-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s063-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s064-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s065-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s066-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s067-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s068-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s069-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s070-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s071-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s072-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s073-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s074-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s075-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s076-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s077-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s078-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s079-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s080-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s081-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s082-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s083-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s084-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s085-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s086-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s087-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s088-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s089-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s090-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s091-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s092-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s093-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s094-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s095-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s096-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s097-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s098-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s099-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s100-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s101-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s102-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s103-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s104-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s105-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s106-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s107-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s108-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s109-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s110-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s111-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s112-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s113-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s114-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s115-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s116-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s117-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s118-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s119-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s120-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s121-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s122-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s123-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s124-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s125-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s126-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s127-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s128-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s129-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s130-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s131-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s132-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s133-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s134-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s135-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s136-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s137-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s138-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s139-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s140-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s141-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s142-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s143-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s144-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s145-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s146-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s147-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s148-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s149-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s150-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s151-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s152-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s153-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s154-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s155-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s156-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s157-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s158-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s159-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s160-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s161-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s162-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s163-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s164-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s165-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s166-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s167-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s168-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s169-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s170-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s171-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s172-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s173-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s174-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s175-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s176-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s177-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s178-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s179-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s180-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s181-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s182-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s183-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s184-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s185-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s186-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s187-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s188-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s189-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s190-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s191-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s192-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s193-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s194-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s195-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s196-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s197-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s198-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s199-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s200-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s201-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s202-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s203-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s204-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s205-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s206-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s207-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s208-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s209-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s210-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s211-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s212-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s213-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s214-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s215-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s216-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s217-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s218-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s219-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s220-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s221-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s222-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s223-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s224-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s225-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s226-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s227-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s228-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s229-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s230-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s231-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s232-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s233-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s234-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s235-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s236-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s237-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s238-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s239-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s240-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s241-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s242-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s243-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s244-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s245-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s246-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s247-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s248-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s249-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s250-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s251-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s252-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s253-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s254-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s255-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s256-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s257-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s258-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s259-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s260-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s261-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s262-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s263-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s264-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s265-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s266-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s267-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s268-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s269-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s270-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s271-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s272-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s273-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s274-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s275-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s276-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s277-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s278-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s279-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s280-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s281-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s282-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s283-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s284-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s285-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s286-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s287-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s288-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s289-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s290-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s291-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s292-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s293-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s294-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s295-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s296-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s297-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s298-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s299-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s300-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s301-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s302-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s303-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s304-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s305-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s306-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s307-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s308-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s309-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s310-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s311-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s312-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s313-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s314-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s315-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s316-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s317-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s318-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s319-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s320-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s321-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s322-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s323-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s324-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s325-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s326-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s327-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s328-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s329-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s330-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s331-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s332-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s333-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s334-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s335-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s336-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s337-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s338-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s339-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s340-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s341-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s342-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s343-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s344-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s345-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s346-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s347-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s348-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s349-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s350-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s351-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s352-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s353-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s354-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s355-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s356-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s357-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s358-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s359-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s360-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s361-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s362-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s363-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s364-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s365-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s366-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s367-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s368-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s369-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s370-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s371-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s372-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s373-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s374-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s375-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s376-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s377-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s378-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s379-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s380-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s381-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s382-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s383-1.txt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/s384-1.txt</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/multiqc.html</font></td></tr>
+</table>>]
+1 [ shape=none, margin=0, label=<<table border="2" color="#D9D957" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">samtools_stats</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/{sample}-{unit}.bam</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/samtools-stats/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.txt</font></td></tr>
+</table>>]
+2 [ shape=none, margin=0, label=<<table border="2" color="#77D957" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">mark_duplicates</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">results/mapped/{sample}-{unit}.sorted.bam</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">results/mkdup/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.bam</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/mkdup/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.metrics.txt</font></td></tr>
+</table>>]
+3 [ shape=none, margin=0, label=<<table border="2" color="#D99857" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">map_reads</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">&lt;input function&gt;</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.amb</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.ann</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.bwt</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.pac</font></td>
+</tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.sa</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">results/mapped/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.sorted.bam</font></td></tr>
+</table>>]
+4 [ shape=none, margin=0, label=<<table border="2" color="#57D998" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">trim_reads_pe</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">&lt;function get_fastq at 0x146428bf8dc0&gt;</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">results/trimmed/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.1.fastq.gz</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">results/trimmed/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.1.unpaired.fastq.gz</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">results/trimmed/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.2.fastq.gz</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">results/trimmed/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.2.unpaired.fastq.gz</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">results/trimmed/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.trimlog.txt</font></td></tr>
+</table>>]
+5 [ shape=none, margin=0, label=<<table border="2" color="#57B8D9" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">bwa_index</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.amb</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.ann</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.bwt</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.pac</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta.sa</font></td></tr>
+</table>>]
+6 [ shape=none, margin=0, label=<<table border="2" color="#57D9A8" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">get_genome</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left">  </td></tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">resources/genome.fasta</font></td></tr>
+</table>>]
+7 [ shape=none, margin=0, label=<<table border="2" color="#87D957" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">fastqc</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">&lt;function get_fastq at 0x146428bf8dc0&gt;</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}.html</font></td></tr>
+<tr>
+<td align="left"><font face="monospace">results/qc/fastqc/{sample,s001|s002|s003|s004|s005|s006|s007|s008|s009|s010|s011|s012|s013|s014|s015|s016|s017|s018|s019|s020|s021|s022|s023|s024|s025|s026|s027|s028|s029|s030|s031|s032|s033|s034|s035|s036|s037|s038|s039|s040|s041|s042|s043|s044|s045|s046|s047|s048|s049|s050|s051|s052|s053|s054|s055|s056|s057|s058|s059|s060|s061|s062|s063|s064|s065|s066|s067|s068|s069|s070|s071|s072|s073|s074|s075|s076|s077|s078|s079|s080|s081|s082|s083|s084|s085|s086|s087|s088|s089|s090|s091|s092|s093|s094|s095|s096|s097|s098|s099|s100|s101|s102|s103|s104|s105|s106|s107|s108|s109|s110|s111|s112|s113|s114|s115|s116|s117|s118|s119|s120|s121|s122|s123|s124|s125|s126|s127|s128|s129|s130|s131|s132|s133|s134|s135|s136|s137|s138|s139|s140|s141|s142|s143|s144|s145|s146|s147|s148|s149|s150|s151|s152|s153|s154|s155|s156|s157|s158|s159|s160|s161|s162|s163|s164|s165|s166|s167|s168|s169|s170|s171|s172|s173|s174|s175|s176|s177|s178|s179|s180|s181|s182|s183|s184|s185|s186|s187|s188|s189|s190|s191|s192|s193|s194|s195|s196|s197|s198|s199|s200|s201|s202|s203|s204|s205|s206|s207|s208|s209|s210|s211|s212|s213|s214|s215|s216|s217|s218|s219|s220|s221|s222|s223|s224|s225|s226|s227|s228|s229|s230|s231|s232|s233|s234|s235|s236|s237|s238|s239|s240|s241|s242|s243|s244|s245|s246|s247|s248|s249|s250|s251|s252|s253|s254|s255|s256|s257|s258|s259|s260|s261|s262|s263|s264|s265|s266|s267|s268|s269|s270|s271|s272|s273|s274|s275|s276|s277|s278|s279|s280|s281|s282|s283|s284|s285|s286|s287|s288|s289|s290|s291|s292|s293|s294|s295|s296|s297|s298|s299|s300|s301|s302|s303|s304|s305|s306|s307|s308|s309|s310|s311|s312|s313|s314|s315|s316|s317|s318|s319|s320|s321|s322|s323|s324|s325|s326|s327|s328|s329|s330|s331|s332|s333|s334|s335|s336|s337|s338|s339|s340|s341|s342|s343|s344|s345|s346|s347|s348|s349|s350|s351|s352|s353|s354|s355|s356|s357|s358|s359|s360|s361|s362|s363|s364|s365|s366|s367|s368|s369|s370|s371|s372|s373|s374|s375|s376|s377|s378|s379|s380|s381|s382|s383|s384}-{unit,1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1}_fastqc.zip</font></td></tr>
+</table>>]
+8 [ shape=none, margin=0, label=<<table border="2" color="#57D957" cellspacing="3" cellborder="0">
+<tr><td>
+<b><font point-size="18">samtools_index</font></b>
+</td></tr>
+<hr/>
+<tr><td align="left"> <b><font point-size="14">&#8618; input</font></b> </td></tr>
+<tr>
+<td align="left"><font face="monospace">{prefix}.bam</font></td>
+</tr>
+<hr/>
+<tr><td align="right"> <b><font point-size="14">output &rarr;</font></b> </td> </tr>
+<tr>
+<td align="left"><font face="monospace">{prefix}.bam.bai</font></td></tr>
+</table>>]
+	1 -> 0
+	2 -> 0
+	8 -> 0
+	7 -> 0
+	2 -> 1
+	3 -> 2
+	4 -> 3
+	5 -> 3
+	6 -> 5
+	2 -> 8
+}            
