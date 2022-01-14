@@ -68,6 +68,6 @@ condense_dag(
 ```
 
 Running dot on the resulting output file gives this sort of picture:
-<img src="/Users/eriq/Library/R/4.1/library/SnakemakeDagR/extdata/images/condensed.svg" width="100%" style="display: block; margin: auto;" />
+<img src="README_files/images/condensed.svg" width="100%" style="display: block; margin: auto;" />
 
 Cool!

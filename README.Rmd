@@ -65,12 +65,7 @@ condense_dag(
 
 Running dot on the resulting output file gives this sort of picture:
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics(
-  system.file(
-    "extdata/images/condensed.svg", 
-    package = "SnakemakeDagR"
-  )
-)
+knitr::include_graphics("README_files/images/condensed.svg")
 ```
 
 Cool!
