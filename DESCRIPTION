@@ -1,6 +1,6 @@
 Package: SnakemakeDagR
 Type: Package
-Title: Condenses Snakemake DAG Output to Something Easier to Visualize
+Title: Condense Snakemake DAG Output to Something Easier to Visualize
 Version: 0.1.0
 Author: Eric C. Anderson
 Maintainer: Eric C. Anderson <eric.anderson@noaa.gov>
