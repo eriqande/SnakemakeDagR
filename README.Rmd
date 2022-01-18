@@ -69,3 +69,25 @@ knitr::include_graphics("README_files/images/condensed.svg")
 ```
 
 Cool!
+
+## Need To Revamp This
+
+So, when we have more steps that involve serious aggregation, I don't think
+that the numbers coming out in the nodes (or even on the edges) really
+reflect how many times the rule is being run, etc.  I am going to have to
+rethink this, and probably will need to include wildcards in the spec.  What
+would be nice would be to show on the edges the wildcards that are in effect, 
+and then somehow try to get the invocation numbers right on the nodes.  
+
+Here is what things look like on the workflow when it is expanded out to
+some variant calling:
+```{r, echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("README_files/images/more_steps.svg")
+```
+The dot file that is based on can be found at
+```r
+system.file("extdata/more_steps.dot", package = "SnakemakeDagR")
+```
+I just have to think a lot more about how to make this informative, and probably
+that will help me to think more abstractly about wildcards.
+

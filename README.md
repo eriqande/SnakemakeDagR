@@ -71,3 +71,25 @@ Running dot on the resulting output file gives this sort of picture:
 <img src="README_files/images/condensed.svg" width="100%" style="display: block; margin: auto;" />
 
 Cool!
+
+## Need To Revamp This
+
+So, when we have more steps that involve serious aggregation, I don’t
+think that the numbers coming out in the nodes (or even on the edges)
+really reflect how many times the rule is being run, etc. I am going to
+have to rethink this, and probably will need to include wildcards in the
+spec. What would be nice would be to show on the edges the wildcards
+that are in effect, and then somehow try to get the invocation numbers
+right on the nodes.
+
+Here is what things look like on the workflow when it is expanded out to
+some variant calling:
+<img src="README_files/images/more_steps.svg" width="100%" style="display: block; margin: auto;" />
+The dot file that is based on can be found at
+
+``` r
+system.file("extdata/more_steps.dot", package = "SnakemakeDagR")
+```
+
+I just have to think a lot more about how to make this informative, and
+probably that will help me to think more abstractly about wildcards.
