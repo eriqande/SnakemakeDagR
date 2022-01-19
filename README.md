@@ -73,3 +73,31 @@ which condenses down to this:
 
 That is pretty informative. I like being able to see the different
 wildcards that are in play.
+
+## Running it on the command line
+
+If you have R up and running on your system, and you have installed the
+`SnakemakeDagR` package, then you can make a small executable file named
+`condense_dag` that looks like this:
+
+``` r
+#!/usr/local/bin/Rscript
+SnakemakeDagR::condense_dag(
+  dagfile = file("stdin"),
+  outfile = stdout() 
+)
+```
+
+and put it in your `PATH`.
+
+Note that the top line (with the shebang: `#!`) has to point to Rscript
+on your system. You can get that with `which Rscript`.
+
+Then when you make a DAG with Snakemake, you can just pipe it through to
+condense it and render it with dot like this:
+
+``` sh
+snakemake  --dag | condense_dag | dot -Tpng > condensed_dag.png
+```
+
+Sweet!

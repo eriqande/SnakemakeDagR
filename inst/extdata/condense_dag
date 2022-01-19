@@ -1,0 +1,5 @@
+#!/usr/local/bin/Rscript
+SnakemakeDagR::condense_dag(
+  dagfile = file("stdin"),
+  outfile = stdout() 
+)
