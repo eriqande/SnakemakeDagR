@@ -63,7 +63,8 @@ Here is an example
 ``` r
 library(SnakemakeDagR)
 condense_dag(
-  dagfile = system.file("extdata/example_dag.dot", package = "SnakemakeDagR")
+  dagfile = system.file("extdata/example_dag.dot", package = "SnakemakeDagR"), 
+  outfile = "condensed.dot" 
 )
 ```
 
@@ -80,16 +81,19 @@ really reflect how many times the rule is being run, etc. I am going to
 have to rethink this, and probably will need to include wildcards in the
 spec. What would be nice would be to show on the edges the wildcards
 that are in effect, and then somehow try to get the invocation numbers
-right on the nodes.
+right on the nodes. Actually, we can’t do that, but we can at least
+print the names of the wildcards on the nodes. Note that the wildcards
+only come out on the “top” node of a chain that uses the same wildcards.
 
 Here is what things look like on the workflow when it is expanded out to
-some variant calling:
-<img src="README_files/images/more_steps.svg" width="100%" style="display: block; margin: auto;" />
-The dot file that is based on can be found at
+some variant calling, making this dotfile:
 
 ``` r
 system.file("extdata/more_steps.dot", package = "SnakemakeDagR")
 ```
 
-I just have to think a lot more about how to make this informative, and
-probably that will help me to think more abstractly about wildcards.
+which condenses down to this:
+<img src="README_files/images/more_steps.svg" width="100%" style="display: block; margin: auto;" />
+
+That is pretty informative. I like being able to see the different
+wildcards that are in play.

@@ -56,10 +56,11 @@ run (for solid nodes). The edges are also labelled with the number of instances 
 have been done or which remain to be done.
 
 Here is an example
-```{r}
+```{r, eval=FALSE}
 library(SnakemakeDagR)
 condense_dag(
-  dagfile = system.file("extdata/example_dag.dot", package = "SnakemakeDagR")
+  dagfile = system.file("extdata/example_dag.dot", package = "SnakemakeDagR"), 
+  outfile = "condensed.dot" 
 )
 ```
 
@@ -77,17 +78,24 @@ that the numbers coming out in the nodes (or even on the edges) really
 reflect how many times the rule is being run, etc.  I am going to have to
 rethink this, and probably will need to include wildcards in the spec.  What
 would be nice would be to show on the edges the wildcards that are in effect, 
-and then somehow try to get the invocation numbers right on the nodes.  
+and then somehow try to get the invocation numbers right on the nodes.  Actually,
+we can't do that, but we can at least print the names of the wildcards on the
+nodes. Note that the wildcards only come out on the "top" node of a chain
+that uses the same wildcards.
+
 
 Here is what things look like on the workflow when it is expanded out to
-some variant calling:
-```{r, echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("README_files/images/more_steps.svg")
-```
-The dot file that is based on can be found at
+some variant calling, making this dotfile:
 ```r
 system.file("extdata/more_steps.dot", package = "SnakemakeDagR")
 ```
-I just have to think a lot more about how to make this informative, and probably
-that will help me to think more abstractly about wildcards.
+which condenses down to this:
+```{r, echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("README_files/images/more_steps.svg")
+```
+
+That is pretty informative.  I like being able to see the different
+wildcards that are in play. 
+
+
 

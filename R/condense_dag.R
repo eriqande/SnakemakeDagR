@@ -60,9 +60,30 @@ condense_dag <- function(
         TRUE ~ "incomplete"
       )
     ) %>%
-    select(id, status, wildcards, canonical, raw)
+    group_by(canonical) %>%
+    mutate(node_n = n()) %>%
+    mutate(
+      wildlist = str_split(wildcards, pattern = "\\\\n"),
+      wildlabel = map_chr(
+        wildlist,
+        function(x) {
+          z <- x[x != ""]
+          tmp <- paste(str_replace_all(z, pattern = ":.*$", ""), collapse = ", ")
+          ifelse(tmp == "", "", paste("\\\\n[", tmp, "]", collapse = "", sep = ""))
+        }
+      )
+    ) %>%
+    mutate(add_to_label = paste0(node_n, wildlabel)) %>%
+    select(id, status, wildcards, wildlabel, add_to_label, node_n, canonical, raw) %>%
+    mutate(  # now, put the number of invocations into the canonical node label, along
+             # with the wildlabel.
+      canonical = str_replace(canonical, "\", color", str_c(": ", add_to_label, "\", color"))
+    ) %>%
+    ungroup()
 
-  ## Now, we whittle that down to what we will work with:
+
+
+  ## Then whittle that down to what we will work with
   nodes3 <- nodes2 %>%
     select(id, canonical, status)
 
@@ -96,18 +117,14 @@ condense_dag <- function(
   node_levs <- unique(c(FS2$origin_canonical, FS2$dest_canonical))
 
   # make indexes for them, and also add text to the label that
-  # shows how many times it has been (or needs to be) run
+  # shows how many times each node has been (or needs to be) run
   FS3 <- FS2 %>%
     mutate(
       origin_idx = as.integer(factor(origin_canonical, levels = node_levs)),
       dest_idx = as.integer(factor(dest_canonical, levels = node_levs))
-    ) %>%
-    mutate(
-      origin_canonical = str_replace(origin_canonical, "\", color", str_c(": ", n, "\", color")),
-      dest_canonical = str_replace(dest_canonical, "\", color", str_c(": ", n, "\", color"))
     )
 
-  # get the node text
+  # get the node text to print out
   node_text <- unique(c(
     str_c(FS3$origin_idx, FS3$origin_canonical),
     str_c(FS3$dest_idx, FS3$dest_canonical)
