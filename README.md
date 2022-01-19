@@ -22,30 +22,16 @@ versions of those (if we ever do).
 This is the DAG for all the jobs up through trimming, mapping,
 dup-marking, and QC-ing.
 
-The first is simply the DAG, obtained with:
+Here is the DAG, obtained with:
 
 ``` sh
 snakemake -np --dag results/qc/multiqc.html > ~/example_dag.dot
 ```
 
-The second is the rulegraph, obtained with:
-
-``` sh
-snakemake -np --rulegraph results/qc/multiqc.html > ~/example_rulegraph.dot
-```
-
-The third is the filegraph, obtained with:
-
-``` sh
-snakemake -np --filegraph  results/qc/multiqc.html > ~/example_filegraph.dot
-```
-
-These are available with
+This is available with
 
 ``` r
 system.file("extdata/example_dag.dot", package = "SnakemakeDagR")
-system.file("extdata/example_rulegraph.dot", package = "SnakemakeDagR")
-system.file("extdata/example_filegraph.dot", package = "SnakemakeDagR")
 ```
 
 ## Functions
@@ -56,9 +42,9 @@ to indicate whether they have been completed or not, and also includes
 the number of instances of each rule that are completed (for dashed
 nodes) and the number of instances that remain to be run (for solid
 nodes). The edges are also labelled with the number of instances that
-have been done or which remain to be done.
-
-Here is an example
+have been done or which remain to be done. Also we print the names of
+the wildcards on the nodes. Note that the wildcard names only come out
+on the “top” node of a chain that uses the same wildcards.
 
 ``` r
 library(SnakemakeDagR)
@@ -73,17 +59,7 @@ Running dot on the resulting output file gives this sort of picture:
 
 Cool!
 
-## Need To Revamp This
-
-So, when we have more steps that involve serious aggregation, I don’t
-think that the numbers coming out in the nodes (or even on the edges)
-really reflect how many times the rule is being run, etc. I am going to
-have to rethink this, and probably will need to include wildcards in the
-spec. What would be nice would be to show on the edges the wildcards
-that are in effect, and then somehow try to get the invocation numbers
-right on the nodes. Actually, we can’t do that, but we can at least
-print the names of the wildcards on the nodes. Note that the wildcards
-only come out on the “top” node of a chain that uses the same wildcards.
+## A more complex example
 
 Here is what things look like on the workflow when it is expanded out to
 some variant calling, making this dotfile:
